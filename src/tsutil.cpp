@@ -44,10 +44,10 @@ namespace TimeSeries {
 		cost[0][0] = 0;
 
 		// first row
-		for(int i = 0; i < m; i++)
+		for(int i = 1; i < m; i++)
 			cost[i][0] = 0;
 		// first column
-		for(int j = 0; j < n; j++)
+		for(int j = 1; j < n; j++)
 			cost[0][j] = 0;
 
 
